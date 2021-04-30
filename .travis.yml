@@ -9,10 +9,8 @@ addons:
         paths:
         - $GOPATH/bin
 
-dist: trusty
-
 go:
-    - 1.8
+    - 1.16
 
 script:
     - set -e
