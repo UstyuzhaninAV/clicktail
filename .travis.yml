@@ -17,7 +17,9 @@ script:
 # Run tests
 #    - go test github.com/Altinity/clicktail/...
 # Build binary and packages
-    - go install -ldflags "-X main.BuildID=1.${TRAVIS_BUILD_NUMBER}" github.com/Altinity/clicktail/...
+    - go get github.com/UstyuzhaninAV/clicktail
+    - go build
+    - go install
     - $GOPATH/bin/clicktail --write_default_config > ./clicktail.conf
     - ./build-pkg.sh -v "1.${TRAVIS_BUILD_NUMBER}" -t deb
     - ./build-pkg.sh -v "1.${TRAVIS_BUILD_NUMBER}" -t rpm
