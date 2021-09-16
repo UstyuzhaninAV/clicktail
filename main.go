@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/Altinity/libclick-go"
+	"github.com/UstyuzhaninAV/libclick-go"
 	flag "github.com/jessevdk/go-flags"
 
 	"github.com/honeycombio/honeytail/httime"
@@ -22,8 +22,8 @@ import (
 	"github.com/honeycombio/honeytail/parsers/postgresql"
 	"github.com/honeycombio/honeytail/parsers/regex"
 	"github.com/honeycombio/honeytail/tail"
-	"github.com/Altinity/clicktail/parsers/mysql"
-	"github.com/Altinity/clicktail/parsers/mysqlaudit"
+	"github.com/UstyuzhaninAV/clicktail/parsers/mysql"
+	"github.com/UstyuzhaninAV/clicktail/parsers/mysqlaudit"
 )
 
 // BuildID is set by Travis CI

@@ -17,7 +17,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/honeycombio/dynsampler-go"
-	"github.com/Altinity/libclick-go"
+	"github.com/UstyuzhaninAV/libclick-go"
 	"github.com/honeycombio/urlshaper"
 
 	"github.com/honeycombio/honeytail/event"
@@ -30,8 +30,8 @@ import (
 	"github.com/honeycombio/honeytail/parsers/postgresql"
 	"github.com/honeycombio/honeytail/parsers/regex"
 	"github.com/honeycombio/honeytail/tail"
-	"github.com/Altinity/clicktail/parsers/mysql"
-    "github.com/Altinity/clicktail/parsers/mysqlaudit"
+	"github.com/UstyuzhaninAV/clicktail/parsers/mysql"
+    "github.com/UstyuzhaninAV/clicktail/parsers/mysqlaudit"
 )
 
 // actually go and be leashy

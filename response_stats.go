@@ -7,7 +7,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/honeycombio/honeytail/event"
-	"github.com/Altinity/libclick-go"
+	"github.com/UstyuzhaninAV/libclick-go"
 )
 
 // responseStats is a container for collecting statistics about events sent
