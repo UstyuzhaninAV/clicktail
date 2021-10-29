@@ -25,5 +25,5 @@ jobs:
         goarch: ${{ matrix.goarch }}
         goversion: "https://dl.google.com/go/go1.15.4.linux-amd64.tar.gz"
         project_path: "./"
-        binary_name: "backblaze-b2-proxy"
+        binary_name: "clicktail"
         extra_files: LICENSE README.md
